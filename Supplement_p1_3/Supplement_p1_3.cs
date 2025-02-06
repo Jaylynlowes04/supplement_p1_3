@@ -12,17 +12,17 @@ public class Supplement_p1_3
 
     public static void CreateBinaryFile(string filePath, byte[] content)
     {
-        throw new NotImplementedException();
+        File.WriteAllBytes(filePath, content);
     }
 
     public static string ReadAsciiFile(string filePath)
     {
-        throw new NotImplementedException();
+        return File.ReadAllText(filePath, Encoding.ASCII);
     }
 
     public static byte[] ReadBinaryFile(string filePath)
     {
-        throw new NotImplementedException();
+        return File.ReadAllBytes(filePath);
     }
     public static void CompareFileSizes()
     {
