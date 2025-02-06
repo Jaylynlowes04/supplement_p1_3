@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Supplement_p1_3/1.0.0": {
+        "runtime": {
+          "Supplement_p1_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Supplement_p1_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

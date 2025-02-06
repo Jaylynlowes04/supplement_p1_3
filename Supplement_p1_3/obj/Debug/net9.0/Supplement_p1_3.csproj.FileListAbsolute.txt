@@ -1,0 +1,11 @@
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\bin\Debug\net9.0\Supplement_p1_3.deps.json
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\bin\Debug\net9.0\Supplement_p1_3.dll
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\bin\Debug\net9.0\Supplement_p1_3.pdb
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.AssemblyInfoInputs.cache
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.AssemblyInfo.cs
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.csproj.CoreCompileInputs.cache
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.dll
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\refint\Supplement_p1_3.dll
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\Supplement_p1_3.pdb
+C:\Users\jayly\OneDrive\Desktop\VSU\Junior Spring 25\Supplement_p1_3\Supplement_p1_3\obj\Debug\net9.0\ref\Supplement_p1_3.dll

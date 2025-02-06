@@ -1,4 +1,7 @@
 ﻿namespace Supplement_p1_3;
+using System;
+using System.IO;
+using System.Text;
 
 public class Supplement_p1_3
 {
