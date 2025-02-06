@@ -44,6 +44,9 @@ public class Supplement_p1_3
     {
         return File.ReadAllBytes(filePath);
     }
+    /// <summary>
+    /// Compares the file sizes of ASCII and binary files with a randomly generated strings.
+    /// </summary>
     public static void CompareFileSizes()
     {
         int[] sizes = { 10, 100, 1000, 10000, 1000000 };
