@@ -25,6 +25,11 @@ public class Supplement_p1_3
         File.WriteAllBytes(filePath, content);
     }
 
+    /// <summary>
+    /// Reads the contents of an ASCII file into a string.
+    /// </summary>
+    /// <param name="filePath">Path to the ASCII file.</param>
+    /// <returns>Reads the text of the ASCII file.</returns>
     public static string ReadAsciiFile(string filePath)
     {
         return File.ReadAllText(filePath, Encoding.ASCII);
