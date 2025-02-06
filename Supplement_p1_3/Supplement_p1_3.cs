@@ -6,15 +6,20 @@ using System.Text;
 public class Supplement_p1_3
 {
     /// <summary>
-    /// Creates an ASCII file with the selected content
+    /// Creates an ASCII file with the selected content.
     /// </summary>
-    /// <param name="filePath">Path to the ASCII file</param>
-    /// <param name="content">gathered content from file</param>
+    /// <param name="filePath">Path to the ASCII file.</param>
+    /// <param name="content">gathered content from file.</param>
     public static void CreateAsciiFile(string filePath, string content)
     {
         File.WriteAllText(filePath, content, Encoding.ASCII);
     }
 
+    /// <summary>
+    /// Creates a binary file with selected content.
+    /// </summary>
+    /// <param name="filePath">Path to the binary file.</param>
+    /// <param name="content">gathered content from file.</param>
     public static void CreateBinaryFile(string filePath, byte[] content)
     {
         File.WriteAllBytes(filePath, content);
