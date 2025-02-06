@@ -66,6 +66,11 @@ public class Supplement_p1_3
             Console.WriteLine($"Size of Binary file ({size} chars): {binarySize} bytes\n");
         }
     }
+    /// <summary>
+    /// Generates a random string for ASCII and binary files.
+    /// </summary>
+    /// <param name="length">Length of the random string.</param>
+    /// <returns>A random string for both ASCII and binary file.</returns>
     private static string GenerateRandomString(int length)
     {
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
