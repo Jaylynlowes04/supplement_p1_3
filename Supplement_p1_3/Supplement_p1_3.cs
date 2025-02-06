@@ -26,10 +26,32 @@ public class Supplement_p1_3
     }
     public static void CompareFileSizes()
     {
-        throw new NotImplementedException();
+        int[] sizes = { 10, 100, 1000, 10000, 1000000 };
+        foreach (int size in sizes)
+        {
+            string content = GenerateRandomString(size);
+            string asciiPath = $"ascii_{size}.txt";
+            string binaryPath = $"binary_{size}.bin";
+
+            CreateAsciiFile(asciiPath, content);
+            CreateBinaryFile(binaryPath, Encoding.ASCII.GetBytes(content));
+
+            long asciiSize = new FileInfo(asciiPath).Length;
+            long binarySize = new FileInfo(binaryPath).Length;
+
+            Console.WriteLine($"Size of ASCII file ({size} chars): {asciiSize} bytes");
+            Console.WriteLine($"Size of Binary file ({size} chars): {binarySize} bytes\n");
+        }
     }
     private static string GenerateRandomString(int length)
     {
-        throw new NotImplementedException();
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        Random random = new Random();
+        char[] stringChars = new char[length];
+        for (int i = 0; i < length; i++)
+        {
+            stringChars[i] = chars[random.Next(chars.Length)];
+        }
+        return new string(stringChars);
     }
 }
