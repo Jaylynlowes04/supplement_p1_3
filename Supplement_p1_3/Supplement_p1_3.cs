@@ -35,6 +35,11 @@ public class Supplement_p1_3
         return File.ReadAllText(filePath, Encoding.ASCII);
     }
 
+    /// <summary>
+    /// Reads the contents of the binary file into a byte array.
+    /// </summary>
+    /// <param name="filePath">Path to the binary file.</param>
+    /// <returns>Reads the text of the binary file and converts it to bytes.</returns>
     public static byte[] ReadBinaryFile(string filePath)
     {
         return File.ReadAllBytes(filePath);
